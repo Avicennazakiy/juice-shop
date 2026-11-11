@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-URIJS-19963961:
+    - '*':
+        reason: 'Dev-only dependency in esbuild, no patch available'
+        expires: 2026-12-10T23:32:08.065Z
+        created: 2026-11-10T23:32:08.067Z
+  SNYK-JS-URIJS-19963963:
+    - '*':
+        reason: 'Dev-only dependency in esbuild, no patch available'
+        expires: 2026-12-10T23:32:15.065Z
+        created: 2026-11-10T23:32:15.071Z
+  SNYK-JS-URIJS-20341609:
+    - '*':
+        reason: 'Dev-only dependency in esbuild, no patch available'
+        expires: 2026-12-10T23:32:22.208Z
+        created: 2026-11-10T23:32:22.212Z
+patch: {}

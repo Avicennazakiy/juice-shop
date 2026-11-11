@@ -46,7 +46,7 @@
     "canvas-confetti": "^1.9.3",
     "codemirror": "^6.0.2",
     "cookieconsent": "^3.1.1",
-    "ethers": "^5.7.2",
+    "ethers": "^5.8.0",
     "flag-icons": "^6.9.2",
     "font-mfizz": "^2.4.1",
     "jwt-decode": "^4.0.0",
@@ -105,5 +105,9 @@
     "esbuild@0.27.7": true,
     "lmdb@3.5.4": true,
     "msgpackr-extract@3.0.4": true
+  },
+  "overrides": {
+    "elliptic": "^6.6.1",
+    "ws": "^8.18.0"
   }
 }
